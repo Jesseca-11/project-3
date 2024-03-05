@@ -1,0 +1,28 @@
+#body {
+    background-color: rgb(12, 94, 141);
+    /* background-image: url('./images/bg-img-per.jpg'); */
+    /* background-repeat: no-repeat; */
+    /* background-position: 50% 50%; */
+    background-size: cover;
+}
+.get {
+    border-radius: 50px;
+}
+.hitext {
+    margin-top: 210px;
+    margin-bottom: 50px;
+}
+.title {
+    margin-bottom: 120px;
+}
+
+.section-title {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+@media screen and (max-width:750px) {
+    #image{
+      display:none;  
+    }
+}
