@@ -61,9 +61,9 @@
         <div class="container-fluid hitext mx-5">
             <div class="row mb-5">
                 <div class="col-sm-6 col-lg-6 col-xxl-6 text-light title">
-                    <h1>Better Solutions For Your Business</h1>
-                    <p>We are team of talented designers making website with Passion</p>
-                    <button class="btn btn-primary get ps-4 pe-4 text-light">Get Started</button>
+                    <h1>Better Solutions <span class="text-info"> For Your Business </span></h1>
+                    <p class="lead">We are team of talented designers making website with Passion</p>
+                    <button class="btn btn-primary get ps-4 pe-4 text-light" data-bs-toggle="modal" data-bs-target="#started">Get Started</button>
                     <a href="#" class="ps-1 text-light text-decoration-none"><i
                             class="bi bi-play-circle pe-1 ps-2 text-light fa-sm h4"></i>Watch Video</a>
                 </div>
@@ -238,9 +238,45 @@
     </section><!-- End Contact Section -->
 
 
-
+<!-- Modal -->
+<div class="modal fade" id="started" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">ENROLLMENT FORM</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="lead">Fill out the form and we will get back to you</p>
+          <form>
+            <div class="mb-3">
+                <label for="first-name" class="col-form-label">First Name</label>
+                <input type="text" class="form-control" id="first-name" placeholder="Enter first name">
+            </div>
+            <div class="mb-3">
+                <label for="last-name" class="col-form-label">Last Name</label>
+                <input type="text" class="form-control" id="last-name" placeholder="Enter last name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="col-form-label">Email</label>
+                <input type="text" class="form-control" id="email" placeholder="Enter email">
+            </div>
+            <div class="mb-3">
+                <label for="number" class="col-form-label">Phone Number</label>
+                <input type="text" class="form-control" id="number" placeholder="Enter phone number">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
     <script src="./js/bootstrap.min.js"></script>
+    <!-- <script src="./core/dist/cjs/popper.js"></script> -->
     <!-- <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
 </body>
 
