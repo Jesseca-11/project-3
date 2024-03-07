@@ -26,7 +26,7 @@
                     </button>
                     <!-- nav links -->
                     <div class="collapse navbar-collapse justify-content-end align-center " id="navi">
-                        <ul class="navbar-nav mb-2 ps-1">
+                        <ul class="navbar-nav mb-2 ps-1" id="nave">
                             <li class="nav-item"><a href="#" class="nav-link active text-info"
                                     aria-current="page">Home</a></li>
                             <li class="nav-item"><a href="#" class="nav-link text-light">About</a></li>
@@ -37,12 +37,12 @@
                                     data-bs-toggle="dropdown" aria-expended="false">Products
                                 </a>
 
-                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu dropdown-menu-light ps-3">
                                     <li><a href="#" class="dropdown-item"></a>Front-end Development</li>
                                     <li><a href="#" class="dropdown-item"></a>Back-end Development</li>
                                     <li><a href="#" class="dropdown-item"></a>Product Design</li>
                                     <li><a href="#" class="dropdown-item"></a>UI/UX Design</li>
-                                    <li><a href="#" class="dropdown-item"></a>Degital Marketing</li>
+                                    <li><a href="#" class="dropdown-item"></a>Digital Marketing</li>
                                 </ul>
                             </li>
                             <li class="nav-item"><a href="#" class="nav-link text-light">Contacts</a></li>
@@ -99,7 +99,7 @@
                 </div>
 
                 <div class="col-sm-12 col-lg-4 col-xxl-4 text-center">
-                    <i class="bi bi-terminal h2 text-primary text-center " id="window"></i>
+                    <i class="bi bi-terminal h2 text-primary text-center ms-4 " id="window"></i>
                     <h4 class="ps-4 ">Easy to use</h4>
                     <p class="text-center">Ready to use with your own content or customize the source files!</p>
                 </div>
@@ -109,14 +109,14 @@
 
     <!-- services -->
     <section class="services">
-        <div class="container-lg">
+        <div class="container-fluid">
             <div class="section-title my-2">
                 <h1>Our Services</h1>
             </div>
             <p class="lead text-center mb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi
                 dignissimos doloremque ipsam? Fugit, placeat odio?</p>
 
-            <div class="row">
+            <div class="row mb-3">
                 <div class="col-sm-12 col-lg-4  col-xxl-3">
                     <div class="card">
                         <img src="./images/design2.jpg" alt="design" class="card-img-top">
@@ -324,8 +324,8 @@
         <!-- footer -->
         <footer>
             <section class="bg-secondary text-light g-3">
-                <div class="row fw-bold ms-2">
-                    <div>
+                <div class="row fw-bold ms-2 text-align-center ">
+                    <div class="col-lg-3 col-xxl-4 ms-3">
                         <h3 class="mt-5 mb-4">Company</h3>
                         <a href="#" class="text-light text-decoration-none">
                             <p>About Us</p>
@@ -338,7 +338,7 @@
                         </a>
                     </div>
 
-                    <div>
+                    <div class="col-lg-3 col-xxl-4 ms-3">
                         <h3 class="mt-5 mb-3 ">Support</h3>
                         <a href="#" class="text-light text-decoration-none">
                             <p>Help Center</p>
@@ -348,8 +348,8 @@
                         </a>
                     </div>
 
-                    <div>
-                        <h3 class="mt-5 mb-3">Company</h3>
+                    <div class="col-lg-3 col-xxl-4 ms-3">
+                        <h3 class="mt-5 mb-3">Legal</h3>
                         <a href="#" class="text-light text-decoration-none">
                             <p>Cookies Policy</p>
                         </a>
@@ -363,10 +363,10 @@
                 </div>
                 <hr>
                 <div class="social-links">
-                    <div class="copyright mb-3">
+                    <div class="copyright mb-3 ms-3">
                         &copy; Copyright 2024 <strong><span>Skill Harvest </span></strong>. All Rights Reserved <i class="bi bi-innstagram"></i>
                     </div>
-                    <div>
+                    <div class="lg-ms-3 ms-3">
                         <a href="#" target="_blank" class="youtube"><i class="bi bi-youtube text-light h4 me-3"></i></a>
                         <a href="#" target="_blank" class="facebook"><i class="bi bi-facebook text-light h4 me-3 "></i></a>
                         <a href="#" target="_blank" class="instagram"><i class="bi bi-instagram text-light h4 me-3"></i></a>
@@ -376,11 +376,15 @@
             </section>
         </footer>
 
-        <div id="preloader"></div>
+        <div id="preloader">
         <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
                 class="bi bi-arrow-up-short"></i></a>
+        </div>
+        
 
-        <script src="./js/bootstrap.min.js"></script>
+        <!-- <script src="./js/bootstrap.min.js"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
         <!-- <script src="./core/dist/cjs/popper.js"></script> -->
         <!-- <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
 </body>
